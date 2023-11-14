@@ -44,7 +44,7 @@ public class UltimateQa {
         //Enter the email to email field.
         driver.findElement(By.id("user[email]")).sendKeys("shraddhadevani@gmail.com");
         //Enter the password to password field.
-        driver.findElement(By.id("user[password]")).sendKeys("smile23");
+        driver.findElement(By.id("user[password]")).sendKeys("smile123");
         //Click on Login Button.
         driver.findElement(By.partialLinkText("Sign")).click();
         //Navigate to baseUrl.
